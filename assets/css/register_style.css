@@ -50,8 +50,8 @@ a {
 	margin-left: auto;
 	top: 4%;
 	width: 35%;
-	background-color: #ffffff;
-	border: 1px solid #ffffff;
+	background-color: #e5e2e8;
+	border: 1px solid #9c21ac;
 	border-radius: 7px;
 	padding: 0px;
 	opacity: 0.79;
@@ -99,7 +99,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
-	border-color: #0f1f2a;
+	border-color: #9a50ba;
 }
 
 #second {
