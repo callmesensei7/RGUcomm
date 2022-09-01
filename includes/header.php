@@ -5,7 +5,7 @@ if (isset($SESSION['username'])) {
     $userLoggedIn = $SESSION['username'];
 }
 else {
-    header("Location: register.php");
+    header("Location: login&register.php");
 }
 
 ?>
