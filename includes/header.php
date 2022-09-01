@@ -28,4 +28,4 @@ else {
             <a href="index.php">RGUcomm</a>
         </div>
 
-    </div>
+    </div> 
