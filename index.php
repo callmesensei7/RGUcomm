@@ -1,7 +1,7 @@
 <?php
 include("includes/header.php");
-session_destroy();
+
 ?>
-	Hello Reece!!!!!
+	Hello Andy!!!!!
 </body>
 </html>
