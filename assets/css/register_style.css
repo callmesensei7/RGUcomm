@@ -99,7 +99,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
-	border-color: #9a50ba;
+	border-color: #712177;
 }
 
 #second {
