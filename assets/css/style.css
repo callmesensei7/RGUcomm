@@ -15,7 +15,7 @@ body {
 .top_bar{
     width: 100%;
     height:50px;
-    background-color: #9c21ac;
+    background-color: #871196;
     border-bottom: 6px solid #f7f4f8;
     margin: 0 0 10px 0;
 	display: inline-flex;
@@ -24,13 +24,13 @@ body {
 }
 
 .logo a{
-	font-family: 'FogSansItalic-B988', sans-serif;
+	font-family: 'HiTall-2YGl', sans-serif;
 	margin-left: 10px;
 	font-size: 30;
 	position: relative;
 	top: 9px;
-	text-shadow: #73B6E2 0.5px 0.5px 0px;
-	color: #1086BA;
+	text-shadow: #fbfbfc 0.5px 0.5px 0px;
+	color: #f8fafb;
 }
 
 a:hover {
@@ -52,7 +52,7 @@ nav a{
 }
 
 nav a:hover {
-	border-bottom: 7px solid #e67e22;
+	border-bottom: 7px solid #612cb0;
 	color: #fff;
 }
 
