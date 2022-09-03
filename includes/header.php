@@ -32,18 +32,19 @@ else {
 	<div class="top_bar"> 
 
 		<div class="logo">
-			<a href="index.php">RGUcomm</a>
+			<a href="index.php" style="text-decoration: none">RGUcomm</a>
 		</div>
 
 		<nav>
 			<a href="<?php echo $userLoggedIn; ?>">
-				<?php echo $user['first_name']; ?>
+				<i class="fa fa-user fa-lg"></i>
+                <?php echo $user['first_name']; ?>
 			</a>
 			<a href="index.php">
 				<i class="fa fa-home fa-lg"></i>
 			</a>
 			<a href="#">
-				<i class="fa fa-envelope fa-lg"></i>
+				<i class="fa fa-inbox fa-lg"></i>
 			</a>
 			<a href="#">
 				<i class="fa fa-bell fa-lg"></i>

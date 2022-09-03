@@ -15,16 +15,18 @@ if(isset($_POST['post'])){
 		<a href="<?php echo $userLoggedIn; ?>">  <img src="<?php echo $user['profile_pic']; ?>"> </a>
 
 		<div class="user_details_left_right">
-			<a href="<?php echo $userLoggedIn; ?>">
+			<a href="<?php echo $userLoggedIn; ?>"style="text-decoration: none">
 			<?php 
 			echo $user['first_name'] . " " . $user['last_name'];
 
 			 ?>
 			</a>
 			<br>
-			<?php echo "Posts: " . $user['num_posts']. "<br>"; 
+			<?php 
+			echo "Friends: " . $user['friend_array']. "<br>"; 
+			echo "Posts: " . $user['num_posts']. "<br>"; 
 			echo "Likes: " . $user['num_likes'];
-
+			
 			?>
 		</div>
 
@@ -33,7 +35,7 @@ if(isset($_POST['post'])){
 	<div class="main_column column">
 		<form class="post_form" action="index.php" method="POST">
 			<textarea name="post_text" id="post_text" placeholder="Got something to say?"></textarea>
-			<input type="submit" name="post" id="post_button" value="Post">
+			<input type="submit" name="post" id="post_button" value="Share">
 			<hr>
 
 		</form>
