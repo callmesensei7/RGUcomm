@@ -13,7 +13,7 @@ class Post {
 		$body = mysqli_real_escape_string($this->con, $body);
 		$check_empty = preg_replace('/\s+/', '', $body); //Deltes all spaces 
       
-		if($check_empty != "") {
+		if($check_empty != "") {	//Makes sure there is text in the post
 
 
 			//Current date and time
