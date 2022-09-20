@@ -12,7 +12,7 @@ if(isset($_POST['post'])){
 
  ?>
 	<div class="user_details column">
-		<b><a href="<?php echo $userLoggedIn; ?>">  <img src="<?php echo $user['profile_pic']; ?>"> </a></b>
+		<a href="<?php echo $userLoggedIn; ?>">  <img src="<?php echo $user['profile_pic']; ?>"> </a>
 
 		<div class="user_details_left_right">
 			<a href="<?php echo $userLoggedIn; ?>">
