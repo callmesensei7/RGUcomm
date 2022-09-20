@@ -17,7 +17,7 @@
 
 body {
 	line-height: 17px;
-	background-color: #ffffff;
+	background-color: #f9f6f6;
 }
 
 .top_bar{
@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 .column {
-	background-color: #fff;
+	background-color: rgb(214, 211, 211);
 	padding: 10px;
 	border: 1px solid #D3D3D3;
 	border-radius: 5px;

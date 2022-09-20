@@ -121,7 +121,7 @@ class Post {
 						else if($interval->d == 1) {
 							$days = $interval->d . " day ago";
 						}
-						else {
+						else { 
 							$days = $interval->d . " days ago";
 						}
 
