@@ -172,7 +172,7 @@ class Post {
 									<img src='$profile_pic' width='50'>
 								</div>
 
-								<div class='posted_by' style='color:#ACACAC;'>
+								<div class='posted_by' style='color:#7b7286;'>
 									<a href='$added_by'> $first_name $last_name </a> $user_to &nbsp;&nbsp;&nbsp;&nbsp;$time_message
 								</div>
 								<div id='post_body'>
