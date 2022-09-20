@@ -245,6 +245,7 @@ a {
 }
 a:hover {
   color: var(--bs-link-hover-color);
+  text-decoration: none;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
