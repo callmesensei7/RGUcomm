@@ -96,10 +96,13 @@ nav a:hover {
 }
 
 .user_details img {
-	height: 120px;
-	border-radius: 5px;
-	margin-right: 5px;
-    
+	height: 110px;
+	border-radius: 70px;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	-ms-border-radius: 70px;
+	-o-border-radius: 70px;
+	margin-right: 15px;
 }
 
 .user_details_left_right {
@@ -161,3 +164,18 @@ textarea:focus {
 	padding: 5px 4px 4px 5px;
 }
 
+.status_post{
+	width: 96%;
+	font-size:15px;
+	padding: 0px 5px;
+	min-height: 75px;
+}
+
+.post_profile_pic{
+	float: left;
+	margin-right: 7px;
+}
+
+.post_profile_pic img{
+	border-radius: 50px;
+}
