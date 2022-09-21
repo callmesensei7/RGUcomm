@@ -39,7 +39,7 @@ if(isset($_POST['post'])){
 		</form>
 
 		<div class="posts_area"></div>
-		<img id="loading" src="assets/images/icons/loading.gif">
+		<img id="loading" src="assets/images/icons/Loading_icon.gif">
 
 
 	</div>
