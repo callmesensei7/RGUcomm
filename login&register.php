@@ -17,7 +17,7 @@ require 'includes/form_handlers/login_handler.php';
 
 
 	<?php  
-
+//gfgfgg//
 	if(isset($_POST['register_button'])) {
 		echo '
 		<script>
@@ -27,7 +27,7 @@ require 'includes/form_handlers/login_handler.php';
 			$("#second").show();
 		});
 
-		</script>
+		</script>  
 
 		';
 	}
