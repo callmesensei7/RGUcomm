@@ -45,14 +45,7 @@ template {
 }
 a {
   background-color: transparent;
-  
 }
-  
-a {
-  text-decoration: none;
-  font-weight: bold;
- }
-
 a:active,
 a:hover {
   outline: 0;
@@ -101,15 +94,10 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid rgb(175, 46, 46);
   height: 0;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
-          box-sizing: content-box;         
- 
+          box-sizing: content-box;
 }
 pre {
   overflow: auto;
@@ -1152,7 +1140,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 2px solid rgb(255, 255, 255);
+  border-top: 1px solid #eee;
 }
 .sr-only {
   position: absolute;
