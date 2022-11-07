@@ -46,9 +46,9 @@ if(isset($_FILES['image']['name'])){
 			$src = $file_name;	 		//the file name to post from cropping form to the resize		
 		} 
 
-/***
+/***********************************************************
 	2  - Resize The Image To Fit In Cropping Area
-***/		
+***********************************************************/		
 		//get the uploaded image size	
 			clearstatcache();				
 			$original_size = getimagesize($fullpath);
@@ -82,9 +82,9 @@ if(isset($_FILES['image']['name'])){
 									
 }//ADD Image 	
 
-/***
+/***********************************************************
 	3- Cropping & Converting The Image To Jpg
-***/
+***********************************************************/
 if (isset($_POST['x'])){
 	
 	//the file type posted
